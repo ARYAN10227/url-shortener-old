@@ -1,4 +1,12 @@
-# URL Shortener
+# URL Shortener (v1)
+
+> **This is the first version of the project, kept for reference.**
+> The current, deployed app lives in two repos:
+> - 🖥️ **Frontend (React, Vercel):** [url-shortener-frontend](https://github.com/ARYAN10227/url-shortener-frontend)
+> - ⚙️ **Backend API (Node.js, Express, MongoDB, Render):** [url-shortener-api](https://github.com/ARYAN10227/url-shortener-api)
+>
+> This v1 is a single Express service with **Redis caching** of short-code lookups
+> (cache-aside, invalidated on update/delete), MongoDB storage, JWT auth and click analytics.
 
 ## Production configuration
 
