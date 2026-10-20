@@ -77,7 +77,7 @@ cp .env.example .env
 docker compose up --build      # app on http://localhost:3000, with MongoDB and Redis
 ```
 
-API docs are then at `http://localhost:3000/api-docs`.
+API docs are then at `http://localhost:3000/api/docs`.
 
 ## ⚙️ Production configuration
 
